@@ -5,6 +5,7 @@ public class MyClass
 
 	public static void main( String[] args )
 	{
-		System.out.println( "Pouet 3" );
+		MyNewClass clazz = new MyNewClass();
+		System.out.println( clazz.getMessage() );
 	}
 }
